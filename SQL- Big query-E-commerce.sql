@@ -2,17 +2,15 @@
 -- Query 01: calculate total visit, pageview, transaction and revenue for Jan, Feb and March 2017 order by month
 #standardSQL
 
-SELECT *  
-FROM (
-  SELECT
+SELECT
     FORMAT_DATE("%Y%m",PARSE_DATE("%Y%m%d",date)) month
     ,SUM(totals.visits) visits
     ,SUM(totals.pageviews) pageviews,
     ,SUM(totals.transactions) transactions
     ,SUM(totals.totaltransactionRevenue)/1000000 revenue
-  FROM
+FROM
     `bigquery-public-data.google_analytics_sample.ga_sessions_2017*`
-  WHERE _TABLE_SUFFIX BETWEEN '20170101' AND '20170331'
+WHERE _TABLE_SUFFIX BETWEEN '20170101' AND '20170331'
 GROUP BY 1   
 ORDER BY 1
 
