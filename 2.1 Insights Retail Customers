@@ -1,0 +1,25 @@
+ Summary Insight – Retail Customer Analysis
+* Objective: The manager seeks an overview of customer spending and behavior from Dec 2009 – Dec 2011 to:
+- Evaluate spending contributions from new, retention, and reactivated customers.
+- Provide strategic recommendations for customer acquisition and retention.
+
+* Data Limitation: The dataset is incomplete from the starting date → results reflect indicative trends only.
+
+* Key Findings
+Revenue & Orders
+- Total spending: $18M with 37K orders.
+- Sales peaked during year-end months, with an average order value of nearly $600 (overall average: $480).
+Customer Behavior
+- The majority of spending comes from existing customers, with Retention > Reactivated.
+- Retention customers consistently generates the highest value. 
+For example, in Nov 2010: Retention: ~$1K/customer per month, New: ~$0.4K/customer, Reactivated: ~$0.5K/customer
+- New customer growth is unstable, and their GMV contribution declines over time.
+ Cohort Analysis
+- New customers acquired in Dec 2010 showed very low retention in the following months (<10%) → indicating an ineffective campaign.
+- New customers in Jun 2011 had weaker retention compared to adjacent months → high churn risk.
+
+*Strategic Recommendations
+- Seasonality: Leverage year-end demand to maximize GMV through upselling & cross-selling.
+- Retention: Allocate ~70% of marketing budget to existing customers → loyalty programs, turning reactivated customers into retention customers.
+- Acquisition: Invest ~30% in new customer acquisition → referral campaigns, multi-channel advertising.
+- Cohort Deep Dive: Further analyze New Dec 2010 and New Jun 2011 cohorts to refine onboarding strategy.
